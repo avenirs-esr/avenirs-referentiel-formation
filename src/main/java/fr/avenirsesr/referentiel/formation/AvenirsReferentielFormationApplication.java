@@ -8,10 +8,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "fr.avenirsesr.referentiel.formation")
 @EntityScan("fr.avenirsesr.referentiel.formation.model")
-public class AvenirsReferentielsApplication {
+public class AvenirsReferentielFormationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AvenirsReferentielsApplication.class, args);
+		SpringApplication.run(AvenirsReferentielFormationApplication.class, args);
 	}
 
 }
