@@ -1,4 +1,4 @@
-# avenirs-referentiels
+# avenirs-referentiel-formation
 Referentiels project.
 
 ### Before launch
