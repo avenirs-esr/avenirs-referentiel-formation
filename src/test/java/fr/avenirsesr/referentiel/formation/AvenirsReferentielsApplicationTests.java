@@ -1,4 +1,4 @@
-package fr.avenirsesr.referentiels;
+package fr.avenirsesr.referentiel.formation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
