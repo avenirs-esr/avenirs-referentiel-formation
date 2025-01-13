@@ -62,13 +62,21 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.liquibase</groupId>
-				<artifactId>liquibase-maven-plugin</artifactId>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
 				<configuration>
-					<changeLogFile>
-						src/main/resources/db/changelog/db.changelog-master.xml</changeLogFile>
+					<source>21</source>
+					<doclint>none</doclint>
 				</configuration>
 			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.liquibase</groupId>-->
+<!--				<artifactId>liquibase-maven-plugin</artifactId>-->
+<!--				<configuration>-->
+<!--					<changeLogFile>-->
+<!--						src/main/resources/db/changelog/db.changelog-master.xml</changeLogFile>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 		</plugins>
 	</build>
 
